@@ -1020,7 +1020,7 @@ Month 3 delivers the final push toward MVP launch, completing all remaining TIER
 - [ ] Versioning requirements (~3 pages)
 
 **References:**
-- VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md
+- ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md
 
 ---
 

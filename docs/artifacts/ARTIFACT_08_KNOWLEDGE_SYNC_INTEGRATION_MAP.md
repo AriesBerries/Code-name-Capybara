@@ -4,7 +4,7 @@
 **Status:** Active  
 **Version:** 1.0  
 **Date:** January 1, 2026  
-**Dependencies:** TERMINOLOGY_GLOSSARY.md, THE_BIN_SPECIFICATION.md, MASTER_CONTROL_DASHBOARD.md
+**Dependencies:** ARTIFACT_02_TERMINOLOGY_GLOSSARY.md, ARTIFACT_03_THE_BIN_SPECIFICATION.md, ARTIFACT_06_MASTER_CONTROL_DASHBOARD.md
 
 ---
 
@@ -950,4 +950,4 @@ let all_pass = l1.is_ok() && l2.is_ok() && l3.is_ok() && l4.is_ok() && l5.is_ok(
 
 ---
 
-**End of KNOWLEDGE_SYNC_INTEGRATION_MAP.md**
+**End of ARTIFACT_08_KNOWLEDGE_SYNC_INTEGRATION_MAP.md**

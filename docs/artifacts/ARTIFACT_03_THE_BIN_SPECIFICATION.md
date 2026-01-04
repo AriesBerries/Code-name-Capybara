@@ -3,7 +3,7 @@
 **Document Type:** Core Architecture  
 **Version:** 1.1.0  
 **Date:** 2026-01-01T00:00:00Z  
-**Dependencies:** TERMINOLOGY_GLOSSARY.md, CROSS_CUTTING_CONCERNS.md, ARTIFACT_05_DATA_MODEL.md, ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md
+**Dependencies:** ARTIFACT_02_TERMINOLOGY_GLOSSARY.md, ARTIFACT_05_DATA_MODEL.md, ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md
 
 ---
 
@@ -1229,4 +1229,4 @@ pub async fn validate_with_ai(change: &PendingChange) -> Result<AIValidationResu
 
 ---
 
-**End of THE_BIN_SPECIFICATION.md v1.1.0**
+**End of ARTIFACT_03_THE_BIN_SPECIFICATION.md v1.1.0**

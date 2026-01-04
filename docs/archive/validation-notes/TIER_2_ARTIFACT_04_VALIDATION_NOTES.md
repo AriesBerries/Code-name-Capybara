@@ -14,7 +14,7 @@
 |-------|--------|-------|
 | Version | 1.0 | 1.1.0 |
 | Date Format | January 1, 2026 | 2026-01-01T00:00:00Z |
-| Dependencies | 2 | 3 (+METADATA_GOVERNANCE_DASHBOARD.md) |
+| Dependencies | 2 | 3 (+ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md) |
 | Total Lines | 447 | 836 |
 
 ---

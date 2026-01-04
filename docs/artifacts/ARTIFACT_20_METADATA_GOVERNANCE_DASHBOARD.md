@@ -1,7 +1,7 @@
 # ARTIFACT_20: METADATA GOVERNANCE DASHBOARD
 
 **Date:** January 1, 2026  
-**Artifact:** METADATA_GOVERNANCE_DASHBOARD.md  
+**Artifact:** ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md  
 **Priority:** Tier 1 - Foundation (Cross-Cutting)  
 **Dependencies:** All other artifacts (cross-cutting governance)  
 **Status:** Ready for Implementation
@@ -593,4 +593,4 @@ This dashboard's standards automatically apply to all other dashboards via The B
 
 ---
 
-**End of ARTIFACT_20: METADATA_GOVERNANCE_DASHBOARD**
+**End of ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md**

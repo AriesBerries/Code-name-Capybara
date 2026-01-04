@@ -12,7 +12,7 @@
 |-------|--------|-------|
 | Version | 1.0 | 1.1.0 |
 | Date | January 1, 2026 | 2026-01-01T00:00:00Z |
-| Dependencies | 2 artifacts | 3 artifacts (+METADATA_GOVERNANCE_DASHBOARD.md) |
+| Dependencies | 2 artifacts | 3 artifacts (+ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md) |
 
 ---
 
@@ -99,7 +99,7 @@ grep -E '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}[^Z]' ARTIFACT_06_MASTER_CONTROL_DAS
 | ARTIFACT_03_THE_BIN_SPECIFICATION.md | ✅ Cross-referenced |
 | ARTIFACT_05_DATA_MODEL.md v1.1.0 | ✅ Cross-referenced |
 | ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md | ✅ Cross-referenced (NEW) |
-| AI_CORTEX_MANAGEMENT_DASHBOARD.md | ✅ Cross-referenced (NEW) |
+| ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md | ✅ Cross-referenced (NEW) |
 
 ---
 

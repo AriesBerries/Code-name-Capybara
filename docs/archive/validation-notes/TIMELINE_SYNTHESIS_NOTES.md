@@ -215,8 +215,8 @@ Week 1 (Schema + Monitoring)
 |--------|--------|----------------|--------|
 | ARTIFACT_20 | ARTIFACT_05 | 4 tables | ✅ Correct |
 | ARTIFACT_20 | ARTIFACT_03 | Layer 0 | ✅ Correct |
-| AI_CORTEX | ARTIFACT_05 | 4 tables | ✅ Correct |
-| VSCODE_EXTENSION | ARTIFACT_05 | 3 tables | ✅ Correct |
+| ARTIFACT_21 | ARTIFACT_05 | 4 tables | ✅ Correct |
+| ARTIFACT_22 | ARTIFACT_05 | 3 tables | ✅ Correct |
 | All | Week 1 | Schema deployment | ✅ Aligned |
 
 ### 6.3 Timeline Feasibility Assessment

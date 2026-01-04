@@ -26,7 +26,7 @@ Code name Capybara is an Internal Developer Platform (IDP) with AI-native archit
 ```
 Code-name-Capybara/
 ├── docs/
-│   ├── artifacts/          # Core specifications (19-22 files)
+│   ├── artifacts/          # Core specifications (22 files)
 │   ├── specifications/     # TIER X UI/UX specs
 │   ├── guides/            # Tools, workflows, templates
 │   ├── adr/               # Architecture Decision Records
@@ -55,9 +55,9 @@ Code-name-Capybara/
 
 All specifications are in `docs/artifacts/`. Start with:
 
-- [01-VISION_SPECIFICATION.md](docs/artifacts/ARTIFACT_01_VISION_SPECIFICATION.md)
-- [02-TERMINOLOGY_GLOSSARY.md](docs/artifacts/ARTIFACT_02_TERMINOLOGY_GLOSSARY.md)
-- [19-IMPLEMENTATION_PLAN_V2.md](docs/artifacts/ARTIFACT_19_DEVGUIDE_COCKPIT_IMPLEMENTATION_PLAN_V2.md)
+- [ARTIFACT_01_VISION_SPECIFICATION.md](docs/artifacts/ARTIFACT_01_VISION_SPECIFICATION.md)
+- [ARTIFACT_02_TERMINOLOGY_GLOSSARY.md](docs/artifacts/ARTIFACT_02_TERMINOLOGY_GLOSSARY.md)
+- [ARTIFACT_19_DEVGUIDE_COCKPIT_IMPLEMENTATION_PLAN_V2.md](docs/artifacts/ARTIFACT_19_DEVGUIDE_COCKPIT_IMPLEMENTATION_PLAN_V2.md)
 
 ## Contributing
 

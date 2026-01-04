@@ -1,0 +1,28 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Force LF line endings for documentation/text
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.sh text eol=lf
+
+# Force LF for source code
+*.go text eol=lf
+*.rs text eol=lf
+*.elm text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.jsx text eol=lf
+*.tsx text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.woff binary
+*.woff2 binary

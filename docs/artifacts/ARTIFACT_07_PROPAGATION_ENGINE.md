@@ -3,7 +3,7 @@
 **Document Type:** Core Mechanics  
 **Version:** 1.0  
 **Date:** January 1, 2026  
-**Dependencies:** THE_BIN_SPECIFICATION.md, DATA_MODEL_SPECIFICATION.md
+**Dependencies:** ARTIFACT_03_THE_BIN_SPECIFICATION.md, ARTIFACT_05_DATA_MODEL.md
 
 ---
 
@@ -444,4 +444,4 @@ pub fn estimate_duration(step: &PropagationStep) -> Duration {
 
 ---
 
-**End of PROPAGATION_ENGINE.md**
+**End of ARTIFACT_07_PROPAGATION_ENGINE.md**

@@ -20,7 +20,7 @@ Thank you for your interest in contributing!
 ### Documentation
 - Update relevant artifacts in `docs/artifacts/`
 - Add examples and diagrams where helpful
-- Keep terminology consistent with [02-TERMINOLOGY_GLOSSARY.md](docs/artifacts/ARTIFACT_02_TERMINOLOGY_GLOSSARY.md)
+- Keep terminology consistent with [ARTIFACT_02_TERMINOLOGY_GLOSSARY.md](docs/artifacts/ARTIFACT_02_TERMINOLOGY_GLOSSARY.md)
 
 ### Testing
 - Write unit tests for all new features

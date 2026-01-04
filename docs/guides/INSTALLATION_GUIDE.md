@@ -189,7 +189,9 @@ Code-name-Capybara/
 │   │   ├── ...
 │   │   ├── ARTIFACT_07_PROPAGATION_ENGINE.md            ← NEW
 │   │   ├── ...
-│   │   └── ARTIFACT_22_METADATA_GOVERNANCE_DASHBOARD.md
+│   │   ├── ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md
+│   │   ├── ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md
+│   │   └── ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md
 │   │
 │   ├── specifications/                          ← 5 TIER X SPECS
 │   │   ├── COMPOSER_UX_COMPLETE_SPECIFICATION.md
@@ -204,9 +206,9 @@ Code-name-Capybara/
 │   │   ├── SOFTWARE_DEVELOPMENT_CHECKLISTS_COMPREHENSIVE.md
 │   │   ├── TOOL_CATALOG.md                              ← NEW
 │   │   ├── WORKFLOW_PATTERNS.md                         ← NEW
-│   │   └── [migration docs]
 │   │
 │   └── archive/                                 ← DECISION DOCS
+│       ├── migration/
 │       ├── tier-protocols/
 │       ├── tier3-execution/
 │       └── validation-notes/

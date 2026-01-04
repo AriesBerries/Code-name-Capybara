@@ -140,7 +140,7 @@ DevGuide Cockpit is an **AI-powered dashboard orchestration system** that helps 
    └── .github/          # CI/CD workflows
    ```
 
-2. Setup TiDB Cloud cluster with **all 11 new tables** (from ARTIFACT_05, ARTIFACT_20, AI_CORTEX, VSCODE_EXTENSION)
+2. Setup TiDB Cloud cluster with **all 11 new tables** (from ARTIFACT_05, ARTIFACT_20, ARTIFACT_21, ARTIFACT_22)
    ```sql
    -- ============================================
    -- METADATA GOVERNANCE TABLES (4 new)

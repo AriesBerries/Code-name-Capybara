@@ -3,7 +3,7 @@
 **Document Type:** Core Architecture  
 **Version:** 1.0  
 **Date:** January 1, 2026  
-**Dependencies:** MASTER_CONTROL_DASHBOARD.md, AI_CORTEX_MANAGEMENT_DASHBOARD.md, TiDB  
+**Dependencies:** ARTIFACT_06_MASTER_CONTROL_DASHBOARD.md, ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md, TiDB  
 **Priority:** Tier 1 - Platform Differentiator
 
 ---
@@ -1311,4 +1311,4 @@ proxy_config:
 
 ---
 
-**End of VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md**
+**End of ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md**

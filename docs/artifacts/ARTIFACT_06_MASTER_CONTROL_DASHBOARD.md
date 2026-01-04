@@ -3,7 +3,7 @@
 **Document Type:** Core Architecture  
 **Version:** 1.1.0  
 **Date:** 2026-01-01T00:00:00Z  
-**Dependencies:** THE_BIN_SPECIFICATION.md, TERMINOLOGY_GLOSSARY.md, METADATA_GOVERNANCE_DASHBOARD.md
+**Dependencies:** ARTIFACT_03_THE_BIN_SPECIFICATION.md, ARTIFACT_02_TERMINOLOGY_GLOSSARY.md, ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md
 
 ---
 
@@ -955,7 +955,7 @@ The Master Control Dashboard queries the following tables:
 - **ARTIFACT_03_THE_BIN_SPECIFICATION.md** - The Bin validation pipeline
 - **ARTIFACT_05_DATA_MODEL.md** v1.1.0 - Database schema definitions
 - **ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md** - Full metadata governance specification
-- **AI_CORTEX_MANAGEMENT_DASHBOARD.md** - AI provider management details
+- **ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md** - AI provider management details
 
 ---
 
@@ -982,4 +982,4 @@ The Master Control Dashboard queries the following tables:
 
 ---
 
-**End of MASTER_CONTROL_DASHBOARD.md v1.1.0**
+**End of ARTIFACT_06_MASTER_CONTROL_DASHBOARD.md v1.1.0**

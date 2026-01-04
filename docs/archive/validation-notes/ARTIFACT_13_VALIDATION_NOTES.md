@@ -68,7 +68,7 @@ grep -E '\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}[^Z]' ARTIFACT_13_SECURITY_CAPABILIT
 
 ## Cross-References Updated
 
-- [x] Dependencies list includes `METADATA_GOVERNANCE_DASHBOARD.md`
+- [x] Dependencies list includes `ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md`
 - [x] Executive summary updated (35+ capabilities, 6 categories)
 - [x] Elm capability declaration examples include new temporal capabilities
 - [x] YAML manifest examples include `temporal_security` category

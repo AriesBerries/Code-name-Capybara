@@ -15,9 +15,9 @@ priority: URGENT
 
 | Specification | Size | DB Tables | Option A | Option B | Option C |
 |--------------|------|-----------|----------|----------|----------|
-| AI_CORTEX_MANAGEMENT_DASHBOARD.md | 56KB | 4 tables | → ARTIFACT_20 | → /future-enhancements/ | → Merge into ARTIFACT_04 |
-| VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md | 45KB | 3 tables | → ARTIFACT_21 | → /future-enhancements/ | → Merge into ARTIFACT_06 |
-| ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md | 26KB | 4 tables | → ARTIFACT_22 or keep as 20 | → /future-enhancements/ | → Merge into ARTIFACT_06 |
+| ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md | 56KB | 4 tables | → ARTIFACT_21 | → /future-enhancements/ | → Merge into ARTIFACT_04 |
+| ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md | 45KB | 3 tables | → ARTIFACT_22 | → /future-enhancements/ | → Merge into ARTIFACT_06 |
+| ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md | 26KB | 4 tables | → ARTIFACT_20 | → /future-enhancements/ | → Merge into ARTIFACT_06 |
 
 **RECOMMENDATION: Option A**
 
@@ -30,10 +30,10 @@ priority: URGENT
 6. Moving to future-enhancements breaks ARTIFACT_19 timeline
 
 **If Option A chosen:**
-- [ ] Rename `AI_CORTEX_MANAGEMENT_DASHBOARD.md` → `ARTIFACT_20_AI_CORTEX_MANAGEMENT_DASHBOARD.md`
-- [ ] Rename `VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md` → `ARTIFACT_21_VSCODE_EXTENSION_ORCHESTRATION.md`
-- [ ] Keep or rename `ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md` → `ARTIFACT_22_METADATA_GOVERNANCE_DASHBOARD.md`
-- [ ] Update artifact count: 19 → 22 (or 20-21 if metadata is already #20)
+- [ ] Ensure `ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md` is present
+- [ ] Ensure `ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md` is present
+- [ ] Keep `ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md` as-is
+- [ ] Update artifact count: 19 → 22
 - [ ] Update PROJECT_COMPLETION_SUMMARY.md
 - [ ] Update README.md
 - [ ] Update all cross-references in other artifacts
@@ -110,13 +110,11 @@ supersedes: [previous version if any]
 
 **If Option A (Promote to Official Artifacts):**
 ```bash
-# Execute these renames
-mv AI_CORTEX_MANAGEMENT_DASHBOARD.md ARTIFACT_20_AI_CORTEX_MANAGEMENT_DASHBOARD.md
-mv VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md ARTIFACT_21_VSCODE_EXTENSION_ORCHESTRATION.md
+# Verify promoted artifacts are present
+ls ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md
+ls ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md
 
-# Determine if ARTIFACT_20_METADATA needs renaming
-# If there are now 3 new artifacts, metadata might be ARTIFACT_22
-# OR if ARTIFACT_20 was never official, keep it as is
+# Metadata Governance stays as ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md
 
 # Update artifact count in all referencing documents
 ```
@@ -124,8 +122,8 @@ mv VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md ARTIFACT_21_VSCODE_EXTENSION_ORCHEST
 **If Option B (Move to Future Enhancements):**
 ```bash
 mkdir -p future-enhancements/
-mv AI_CORTEX_MANAGEMENT_DASHBOARD.md future-enhancements/
-mv VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md future-enhancements/
+mv ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md future-enhancements/
+mv ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md future-enhancements/
 mv ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md future-enhancements/
 
 # WARNING: This will require updating ARTIFACT_19 v2.1.0
@@ -201,11 +199,11 @@ TIERX_COUNT=$(ls *_COMPLETE_SPECIFICATION.md 2>/dev/null | wc -l)
 echo "✓ TIER X specs: $TIERX_COUNT"
 
 # Check 3: Draft specs
-if [ -f "AI_CORTEX_MANAGEMENT_DASHBOARD.md" ]; then
-  echo "⚠️  WARNING: AI_CORTEX_MANAGEMENT_DASHBOARD.md still in draft status"
+if [ ! -f "ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md" ]; then
+  echo "⚠️  WARNING: Missing ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md"
 fi
-if [ -f "VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md" ]; then
-  echo "⚠️  WARNING: VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md still in draft status"
+if [ ! -f "ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md" ]; then
+  echo "⚠️  WARNING: Missing ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md"
 fi
 
 # Check 4: Duplicate files
@@ -266,9 +264,9 @@ echo "Pre-flight check complete. Review warnings before migration."
 > Based on review of the GitHub Migration Status Report:
 > 
 > **Issue #1 (Draft Specifications) - I choose:** Option [A/B/C]
-> - AI Cortex: [promote to ARTIFACT_20 / move to future / merge into ARTIFACT_04]
-> - VS Code Extension: [promote to ARTIFACT_21 / move to future / merge into ARTIFACT_06]
-> - Metadata Governance: [keep as ARTIFACT_20 / renumber to ARTIFACT_22 / move to future]
+> - AI Cortex: [promote to ARTIFACT_21 / move to future / merge into ARTIFACT_04]
+> - VS Code Extension: [promote to ARTIFACT_22 / move to future / merge into ARTIFACT_06]
+> - Metadata Governance: [keep as ARTIFACT_20 / move to future / merge into ARTIFACT_06]
 > 
 > **Issue #3 (TIER X Specs) - I determine:**
 > - COMPOSER_UX: [MVP / post-MVP]

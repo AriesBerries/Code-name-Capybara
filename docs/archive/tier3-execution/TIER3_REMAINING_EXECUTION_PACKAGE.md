@@ -81,8 +81,8 @@ Upload ALL of these files to Chat 4:
 19. `TIER3_MONTH3_TIMELINE.md` (from TASK 3)
 
 **Additional Context (2 files - if available):**
-20. `AI_CORTEX_MANAGEMENT_DASHBOARD.md`
-21. `VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md`
+20. `ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md`
+21. `ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md`
 
 ### Step 3: Copy-Paste the Prompt Below
 

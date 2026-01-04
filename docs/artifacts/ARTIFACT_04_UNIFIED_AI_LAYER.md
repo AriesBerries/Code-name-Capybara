@@ -3,7 +3,7 @@
 **Document Type:** Core Architecture  
 **Version:** 1.1.0  
 **Date:** 2026-01-01T00:00:00Z  
-**Dependencies:** THE_BIN_SPECIFICATION.md, DATA_MODEL_SPECIFICATION.md, METADATA_GOVERNANCE_DASHBOARD.md
+**Dependencies:** ARTIFACT_03_THE_BIN_SPECIFICATION.md, ARTIFACT_05_DATA_MODEL.md, ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md
 
 ---
 
@@ -825,7 +825,7 @@ pub async fn reason_with_fallback(
 - **Added:** Token usage tracking with TiDB
 - **Added:** Test cases for timestamp normalization
 - **Added:** Cross-references table
-- **Updated:** Dependencies to include METADATA_GOVERNANCE_DASHBOARD.md
+- **Updated:** Dependencies to include ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md
 - **Updated:** Date format to Zulu (Z suffix)
 
 ### v1.0.0 (2026-01-01)
@@ -833,4 +833,4 @@ pub async fn reason_with_fallback(
 
 ---
 
-**End of UNIFIED_AI_LAYER.md**
+**End of ARTIFACT_04_UNIFIED_AI_LAYER.md**

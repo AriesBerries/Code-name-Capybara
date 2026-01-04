@@ -4,7 +4,7 @@
 **Status:** Active  
 **Version:** 1.0  
 **Date:** January 1, 2026  
-**Dependencies:** TEMPLATE_SYSTEM_SPECIFICATION.md, TERMINOLOGY_GLOSSARY.md
+**Dependencies:** ARTIFACT_10_TEMPLATE_SYSTEM_SPECIFICATION.md, ARTIFACT_02_TERMINOLOGY_GLOSSARY.md
 
 ---
 
@@ -558,4 +558,4 @@ default_folder: "inbox"
 
 ---
 
-**End of DASHBOARD_TEMPLATE_CATALOG.md**
+**End of ARTIFACT_11_DASHBOARD_TEMPLATE_CATALOG.md**

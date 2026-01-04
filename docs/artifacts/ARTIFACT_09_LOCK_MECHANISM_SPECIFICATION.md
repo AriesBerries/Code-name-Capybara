@@ -4,7 +4,7 @@
 **Status:** Active  
 **Version:** 1.0  
 **Date:** January 1, 2026  
-**Dependencies:** THE_BIN_SPECIFICATION.md, MASTER_CONTROL_DASHBOARD.md, DATA_MODEL.md
+**Dependencies:** ARTIFACT_03_THE_BIN_SPECIFICATION.md, ARTIFACT_06_MASTER_CONTROL_DASHBOARD.md, ARTIFACT_05_DATA_MODEL.md
 
 ---
 
@@ -708,4 +708,4 @@ func (lab *LockAuditBatcher) Start(ctx context.Context) {
 
 ---
 
-**End of LOCK_MECHANISM_SPECIFICATION.md**
+**End of ARTIFACT_09_LOCK_MECHANISM_SPECIFICATION.md**

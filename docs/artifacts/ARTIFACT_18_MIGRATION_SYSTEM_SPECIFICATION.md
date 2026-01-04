@@ -4,7 +4,7 @@
 **Status:** Active  
 **Version:** 1.0  
 **Date:** January 1, 2026  
-**Dependencies:** THE_BIN_SPECIFICATION.md, DATA_MODEL.md, CROSS_CUTTING_CONCERNS.md
+**Dependencies:** ARTIFACT_03_THE_BIN_SPECIFICATION.md, ARTIFACT_05_DATA_MODEL.md
 
 ---
 

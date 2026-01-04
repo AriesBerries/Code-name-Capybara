@@ -4,7 +4,7 @@
 **Status:** Active  
 **Version:** 1.0  
 **Date:** January 1, 2026  
-**Dependencies:** UNIFIED_AI_LAYER.md, DATA_MODEL.md, THE_BIN_SPECIFICATION.md
+**Dependencies:** ARTIFACT_04_UNIFIED_AI_LAYER.md, ARTIFACT_05_DATA_MODEL.md, ARTIFACT_03_THE_BIN_SPECIFICATION.md
 
 ---
 

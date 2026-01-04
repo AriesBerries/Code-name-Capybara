@@ -3,7 +3,7 @@
 **Document Type:** Core Architecture  
 **Version:** 1.0  
 **Date:** January 1, 2026  
-**Dependencies:** UNIFIED_AI_LAYER.md, MASTER_CONTROL_DASHBOARD.md, TiDB  
+**Dependencies:** ARTIFACT_04_UNIFIED_AI_LAYER.md, ARTIFACT_06_MASTER_CONTROL_DASHBOARD.md, TiDB  
 **Priority:** Tier 1 - Critical Infrastructure
 
 ---
@@ -1380,4 +1380,4 @@ groups:
 
 ---
 
-**End of AI_CORTEX_MANAGEMENT_DASHBOARD.md**
+**End of ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md**

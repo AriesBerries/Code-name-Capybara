@@ -103,8 +103,8 @@ After comprehensive analysis, **THREE components** benefit significantly from a 
 
 **NEW SYSTEMS TO INTEGRATE:**
 11. `/mnt/project/ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md` - Governance specs
-12. `/mnt/project/AI_CORTEX_MANAGEMENT_DASHBOARD.md` - AI Cortex specs
-13. `/mnt/project/VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md` - Extension specs
+12. `/mnt/project/ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md` - AI Cortex specs
+13. `/mnt/project/ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md` - Extension specs
 
 ### COPY-PASTE PROMPT: ARTIFACT_19 FIRST PASS
 
@@ -142,8 +142,8 @@ UPLOADED DOCUMENTS (Review ALL before starting):
 8. ARTIFACT_13_SECURITY_CAPABILITY_MODEL.md (v1.1.0) - temporal security
 9. ARTIFACT_16_TECH_STACK_UPDATE.md (v1.1.0) - TiDB requirements
 10. ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md - governance specs
-11. AI_CORTEX_MANAGEMENT_DASHBOARD.md - AI Cortex specs
-12. VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md - extension specs
+11. ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md - AI Cortex specs
+12. ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md - extension specs
 
 ════════════════════════════════════════════════════════════════════════
 

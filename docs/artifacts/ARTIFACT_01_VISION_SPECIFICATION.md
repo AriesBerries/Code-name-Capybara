@@ -135,4 +135,4 @@ Traditional software development suffers from **structural desynchronization**:
 
 ---
 
-**End of VISION_SPECIFICATION.md**
+**End of ARTIFACT_01_VISION_SPECIFICATION.md**

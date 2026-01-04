@@ -56,7 +56,7 @@ Month 2 focuses on **Workflow Systems** implementation, building upon the core i
 - [ ] Integration tests passing (>80% coverage)
 
 **References:**
-- VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md, Section: Extension Proxy Layer
+- ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md, Section: Extension Proxy Layer
 - ARTIFACT_06 v1.1.0, Section: Extension Integration
 
 ---
@@ -104,7 +104,7 @@ Month 2 focuses on **Workflow Systems** implementation, building upon the core i
 - [ ] Search index operational
 
 **References:**
-- VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md, Section: Dashboard Repository
+- ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md, Section: Dashboard Repository
 
 ---
 
@@ -150,7 +150,7 @@ Month 2 focuses on **Workflow Systems** implementation, building upon the core i
 - [ ] Health checks reporting extension status
 
 **References:**
-- VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md, Section: Error Handling
+- ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md, Section: Error Handling
 
 ---
 
@@ -219,7 +219,7 @@ Month 2 focuses on **Workflow Systems** implementation, building upon the core i
 - [ ] Developer guidelines published
 
 **References:**
-- VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md
+- ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md
 
 ---
 
@@ -312,7 +312,7 @@ Month 2 focuses on **Workflow Systems** implementation, building upon the core i
 - [ ] Health monitoring dashboard created
 
 **References:**
-- AI_CORTEX_MANAGEMENT_DASHBOARD.md
+- ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md
 
 ---
 
@@ -335,7 +335,7 @@ Month 2 focuses on **Workflow Systems** implementation, building upon the core i
 - [ ] Import works with single click
 
 **References:**
-- VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md, Section: Dashboard Repository
+- ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md, Section: Dashboard Repository
 
 ---
 
@@ -406,7 +406,7 @@ Month 2 focuses on **Workflow Systems** implementation, building upon the core i
 - [ ] JIT data delivery operational
 
 **References:**
-- VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md, Section: Per-Project Configuration
+- ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md, Section: Per-Project Configuration
 
 ---
 
@@ -568,7 +568,7 @@ Month 2 focuses on **Workflow Systems** implementation, building upon the core i
 - [ ] Usage history tracked per session
 
 **References:**
-- AI_CORTEX_MANAGEMENT_DASHBOARD.md
+- ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md
 
 ---
 
@@ -634,7 +634,7 @@ Month 2 focuses on **Workflow Systems** implementation, building upon the core i
 - [ ] Presets applicable with one click
 
 **References:**
-- VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md, Section: Template Integration
+- ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md, Section: Template Integration
 
 ---
 
@@ -1937,8 +1937,8 @@ By end of Month 2, the following will be ready for Month 3 development:
 | PROMPT_CONTROL_HUB_COMPLETE_SPECIFICATION.md | Hub implementation | Sections 4-5: Agents and Skills |
 | LAYOUT_EDIT_MODE_COMPLETE_SPECIFICATION.md | Layout editing | Section 3: Rails System |
 | ARTIFACT_11_DASHBOARD_TEMPLATE_CATALOG.md | Template specifications | All template sections |
-| VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md | Extension system | All sections |
-| AI_CORTEX_MANAGEMENT_DASHBOARD.md | AI management | Token tracking sections |
+| ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md | Extension system | All sections |
+| ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md | AI management | Token tracking sections |
 | ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md | Governance UI | Panel specifications |
 
 ---

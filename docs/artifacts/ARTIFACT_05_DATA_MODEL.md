@@ -811,7 +811,7 @@ ORDER BY TABLE_NAME, INDEX_NAME, SEQ_IN_INDEX;
 
 ---
 
-**End of DATA_MODEL_SPECIFICATION.md**
+**End of ARTIFACT_05_DATA_MODEL.md**
 
 *Version: 1.1.0*  
 *Last Updated: 2026-01-01T14:30:45Z*  

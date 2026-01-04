@@ -22,13 +22,13 @@ status: CRITICAL_REVIEW_REQUIRED
 
 **Problem:** Three major system specifications exist but are not part of the official 19 artifacts:
 
-1. **AI_CORTEX_MANAGEMENT_DASHBOARD.md** (56 KB)
+1. **ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md** (56 KB)
    - Status: Draft specification
    - Referenced in: ARTIFACT_19 v2.1.0, ARTIFACT_05 v1.1.0
    - Impact: 4 database tables (token_usage, api_configurations, tool_registry, external_tool_access)
    - Integration: Required for Week 4 implementation
 
-2. **VSCODE_EXTENSION_ORCHESTRATION_SYSTEM.md** (45 KB)
+2. **ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md** (45 KB)
    - Status: Draft specification
    - Referenced in: ARTIFACT_19 v2.1.0, ARTIFACT_05 v1.1.0
    - Impact: 3 database tables (extension_dashboards, project_extension_mappings, dashboard_versions)
@@ -43,9 +43,9 @@ status: CRITICAL_REVIEW_REQUIRED
 **Resolution Options:**
 
 **Option A (RECOMMENDED):** Promote to official artifacts
-- Rename AI_CORTEX → ARTIFACT_20_AI_CORTEX_MANAGEMENT_DASHBOARD.md
-- Rename VSCODE_EXT → ARTIFACT_21_VSCODE_EXTENSION_ORCHESTRATION.md
-- Keep existing ARTIFACT_20_METADATA → ARTIFACT_22_METADATA_GOVERNANCE_DASHBOARD.md
+- Promote `ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md` to official artifacts
+- Promote `ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md` to official artifacts
+- Keep `ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md` as-is
 - Update artifact count from 19 → 22
 - Update all cross-references
 - Timeline: 2-3 hours
@@ -241,9 +241,9 @@ devguide-cockpit/
 │   │   ├── ARTIFACT_17_OFFLINE_ARCHITECTURE_SPECIFICATION.md
 │   │   ├── ARTIFACT_18_MIGRATION_SYSTEM_SPECIFICATION.md
 │   │   ├── ARTIFACT_19_DEVGUIDE_COCKPIT_IMPLEMENTATION_PLAN_V2.md
-│   │   ├── ARTIFACT_20_[TBD].md                    ← DECISION REQUIRED
-│   │   ├── ARTIFACT_21_[TBD].md                    ← DECISION REQUIRED
-│   │   └── ARTIFACT_22_[TBD].md                    ← DECISION REQUIRED
+│   │   ├── ARTIFACT_20_METADATA_GOVERNANCE_DASHBOARD.md
+│   │   ├── ARTIFACT_21_AI_CORTEX_MANAGEMENT_DASHBOARD.md
+│   │   └── ARTIFACT_22_VSCODE_EXTENSION_ORCHESTRATION.md
 │   │
 │   ├── specifications/                 ← TIER X SYSTEM SPECS
 │   │   ├── COMPOSER_UX_COMPLETE_SPECIFICATION.md
@@ -647,9 +647,9 @@ git push -u origin main
 | ARTIFACT_01 | None | All others |
 | ARTIFACT_02 | ARTIFACT_01 | All others |
 | ARTIFACT_03 | 05, 20 | 06, 07, 19 |
-| ARTIFACT_04 | 05, 20, AI_CORTEX | 06, 08, 19 |
-| ARTIFACT_05 | None (defines schema) | 03, 04, 06, 19, 20, AI_CORTEX, VSCODE_EXT |
-| ARTIFACT_06 | 03, 04, 05, 20, AI_CORTEX, VSCODE_EXT | 07, 08, 19 |
+| ARTIFACT_04 | 05, 20, 21 | 06, 08, 19 |
+| ARTIFACT_05 | None (defines schema) | 03, 04, 06, 19, 20, 21, 22 |
+| ARTIFACT_06 | 03, 04, 05, 20, 21, 22 | 07, 08, 19 |
 | ARTIFACT_19 | ALL (synthesis) | None |
 | TIER X Specs | ? | 19? |
 
